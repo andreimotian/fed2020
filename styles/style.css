@@ -3,3 +3,101 @@
   box-sizing:border-box;  
 }
 
+/*header en footer*/
+header {
+    background-color: white;
+}
+
+header a {
+    font-family: helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+header li {
+    list-style: none;
+}
+
+footer {
+    background-color: white;
+}
+
+footer li>a {
+    font-family: helvetica;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+footer li {
+    list-style: none;
+}
+
+/*Mulan section*/
+.mulansection {
+    background-color: rgb(8, 19, 52);
+}
+
+.mulansection a {
+    color: white;
+}
+
+.mulansection article{
+    background-color: rgb(20,43,98);
+}
+
+.mulansection img:first-of-type {
+    transition: transform 1s;
+}
+
+.mulansection img:first-of-type:hover {
+    transform: scale(1.05);
+}
+
+.mulansection h1 {
+    color: white;
+}
+
+.mulansection p {
+    color: white;
+}
+/* Phineas & Ferb section*/
+.phineassection {
+    background-color: rgb(15, 17, 73);
+}
+
+.phineassection img:first-of-type {
+    transition: transform 1s;
+}
+
+.phineassection:first-of-type:hover {
+    transform: scale(1.05);
+}
+
+.phineassection a {
+    color: white;
+    text-decoration: none;
+}
+
+.phineassection a:hover {
+    text-decoration: underline;
+}
+
+/*Parken section*/
+.parkensection {
+    background-color: rgb(245, 245, 245)
+}
+
+.parkensection article {
+    background-color: white;
+}
+
+/*Meer section*/
+.meersection {
+    background-color: rgb(245, 245, 245)
+}
+
+img {
+    width: 100%;
+}
