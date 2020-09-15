@@ -48,7 +48,7 @@ Het gebruik van nth-type ging minder goed omdat er bij mij alle elementen gesele
 
 ### Agenda voor meeting
 
--Waarom wel of geen class gebruiken ipv nth-type? Foutmeldingen in javascript. Veranderen van burger menu naar kruis. Vragen over microinteracties: hamburger menu, inzoomen van afbeelding met css? Foto's laten overlappen met positioning of iets anders? Hoe krijg je afbeeldingen in de read me bestand-
+-Waarom wel of geen class gebruiken ipv nth-type? Foutmeldingen in javascript. Veranderen van burger menu naar kruis. Vragen over microinteracties: hamburger menu, inzoomen van afbeelding met css? Foto's laten overlappen met positioning of iets anders? Hoe krijg je afbeeldingen in de read me bestand. Sims website schuine blok onder afbeelding.-
 
 ### Verslag van meeting
 
