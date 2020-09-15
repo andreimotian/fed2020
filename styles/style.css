@@ -3,20 +3,70 @@
   box-sizing:border-box;  
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 /*header en footer*/
 header {
     background-color: white;
+    position: relative;
 }
 
-header a {
+.disneylogo {
+    position: absolute;
+    top: auto;
+    left: 200px;
+    
+    padding: 0;
+    width: 84px;
+    height: 34px;
+    text-align: center
+}
+
+button {
+  border-style: none;
+  display: block;
+  background-color: white;
+  height: 35px;
+  width: 35px;
+  left: 10px;
+  margin: 19px;
+}
+
+header nav {
+    display: none;
+}
+
+header nav.open {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  background-color: white;
+}
+
+header ul li a {
     font-family: helvetica;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    font-size: 14px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 header li {
     list-style: none;
+    padding: .75em;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    
 }
 
 footer {
@@ -43,6 +93,19 @@ footer li {
     color: white;
 }
 
+.mulansection a:nth-of-type(1) {
+    display: block;
+    background-color: red;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20%;
+    padding: .75em;
+}
+
+img:nth-of-type(2) /*Logo van Mulan*/{
+    margin-top: 20px;
+}
+
 .mulansection article{
     background-color: rgb(20,43,98);
 }
@@ -55,13 +118,14 @@ footer li {
     transform: scale(1.05);
 }
 
-.mulansection h1 {
+.mulansection h2 {
     color: white;
 }
 
 .mulansection p {
     color: white;
 }
+
 /* Phineas & Ferb section*/
 .phineassection {
     background-color: rgb(15, 17, 73);
@@ -71,7 +135,7 @@ footer li {
     transition: transform 1s;
 }
 
-.phineassection:first-of-type:hover {
+.phineassection img:first-of-type:hover {
     transform: scale(1.05);
 }
 
@@ -99,5 +163,5 @@ footer li {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }

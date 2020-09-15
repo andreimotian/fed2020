@@ -38,15 +38,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+-Het maken van een navigatie met flexbox en het gebruik van javascript om de navigatie in en uit te klappen ging goed.
+
+Het gebruik van nth-type ging minder goed omdat er bij mij alle elementen geselecteerd worden binnen een section ipv een element. Kruisjes in javascript met foutmelding. Burger menu veranderen naar kruis, ik weet niet hoe ik dit moet doen.-
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent-
+[](images/navigatie.png)
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+-Waarom wel of geen class gebruiken ipv nth-type? Foutmeldingen in javascript. Veranderen van burger menu naar kruis. Vragen over microinteracties: hamburger menu, inzoomen van afbeelding met css? Foto's laten overlappen met positioning of iets anders?-
 
 ### Verslag van meeting
 
@@ -64,7 +66,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/disneyeen.png) (images/disneytwee.png) (images/disneydrie.png) (images/disneyvier.png) (images/IMG_2770.PNG) (images/IMG_2771.PNG) (images/IMG_2772.PNG) (images/IMG_2773.PNG) (images/IMG_2774.PNG)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/disneyeen.png) [](images/disneytwee.png) [](images/disneydrie.png) [](images/disneyvier.png) [](images/IMG_2770.PNG) [](images/IMG_2771.PNG) [](images/IMG_2772.PNG) [](images/IMG_2773.PNG) [](images/IMG_2774.PNG)
 
 **Breakdown-schets(en):**
 
