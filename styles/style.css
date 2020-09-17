@@ -93,7 +93,7 @@ footer li {
     color: white;
 }
 
-.mulansection a:nth-of-type(1) {
+.mulansection article a {
     display: block;
     background-color: red;
     text-decoration: none;

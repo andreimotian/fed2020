@@ -44,7 +44,7 @@ Het gebruik van nth-type ging minder goed omdat er bij mij alle elementen gesele
 
 **Screenshot(s):**
 
-[](images/navigatie.png)
+![screenshot van navigatie](images/navigatie.png)
 
 ### Agenda voor meeting
 
@@ -66,7 +66,15 @@ Het gebruik van nth-type ging minder goed omdat er bij mij alle elementen gesele
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/disneyeen.png) [](images/disneytwee.png) [](images/disneydrie.png) [](images/disneyvier.png) [](images/IMG_2770.PNG) [](images/IMG_2771.PNG) [](images/IMG_2772.PNG) [](images/IMG_2773.PNG) [](images/IMG_2774.PNG)
+![screenshot van disney website](images/disneyeen.png) 
+![screenshot van disney website](images/disneytwee.png) 
+![screenshot van disney website](images/disneydrie.png) 
+![screenshot van disney website](images/disneyvier.png) 
+![screenshot van disney website](images/IMG_2770.PNG) 
+![screenshot van disney website](images/IMG_2771.PNG) 
+![screenshot van disney website](images/IMG_2772.PNG) 
+![screenshot van disney website](images/IMG_2773.PNG) 
+![screenshot van disney website](images/IMG_2774.PNG)
 
 **Breakdown-schets(en):**
 
