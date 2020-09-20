@@ -52,7 +52,7 @@ Het gebruik van nth-type ging minder goed omdat er bij mij alle elementen gesele
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+-1. Bij de nth type en child selectors moest ik beter in mijn html kijken waar ik precies de element in had geplaatst om het aan te spreken. VB, moest de eerste link slecteren maar de eerste twee links werden gestyled. Dat kwam omdat de eerste link in een article zat en die niet specifiek had aangesproken. 2. De errors die ik kreeg in JavaScript waren errors die ik kon negeren. In het eerste jaar had ik altijd een regel boven in mijn js bestand, als ik die nu weer gebruik gaan die errors weg. 3. Ik ben uitgedaagd om mijn burgermenu te animeren, dat kan ik doen door ipv een png een svg bestand te gebruiken waardoor de twee strepen een kruis worden. 4. Door de juiste syntax te gebruiken in dit readme bestand weet ik hoe ik een afbeelding kan laten zien. 5. Feedback van docent: Het gaat de goede kant op en de styling zag er tot nu toe al goed uit.-
 
 
 
