@@ -1,17 +1,77 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
 body {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
+
 /*header en footer*/
+
 header {
     background-color: white;
     position: relative;
+}
+
+button {
+    border-style: none;
+    display: block;
+    /* Aangepast: background-color transparent ipv white */
+    background-color: transparent;
+    height: 35px;
+    width: 35px;
+    left: 10px;
+    margin: 19px;
+    position: relative;
+}
+
+/* button in normale state */
+
+button::before,
+button::after {
+    content: '';
+    position: absolute;
+    width: 27px;
+    background-color: black;
+    height: 3px;
+    left: 4px;
+    /* transition */
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+button::before {
+    top: 10px;
+}
+
+button::after {
+    top: 19px;
+}
+
+
+/* button in open state (class naam =  .animated) */
+
+button.animated::before,
+button.animated::after {
+    top: 16px;
+}
+
+button.animated::before {
+    transform: rotate(-45deg);
+}
+
+button.animated::after {
+    transform: rotate(45deg);
 }
 
 header img {
@@ -24,60 +84,45 @@ header img {
     width: 84px;
     height: 34px;
 }
-
-button {
-  border-style: none;
-  display: block;
-  background-color: white;
-  height: 35px;
-  width: 35px;
-  left: 10px;
-  margin: 19px;
-}
-
-svg {
-
-}
-
-.cls-1{
-    fill:none;
-    stroke:#000;
-    stroke-miterlimit:10;
-    stroke-width:7px;
-}
-
 header nav {
     display: none;
 }
 
 header nav.open {
-  position: absolute;
-  left: 0;
-  right: 0;
-  display: block;
-  background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    background-color: white;
 }
 
 header ul li a {
+    display: block;
     font-family: helvetica;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
     font-size: 14px;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    padding-right: 20;
 }
 
 header ul {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 header li {
     list-style: none;
-    padding: .75em;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    
+    border-bottom-color: lightgrey;
 }
 
 footer {
@@ -95,38 +140,52 @@ footer li {
     list-style: none;
 }
 
+
 /*Mulan section*/
+
 .mulansection {
     background-color: rgb(8, 19, 52);
+    padding-bottom: 12px;
 }
 
 .mulansection a {
     color: white;
 }
 
+.mulansection article {
+    text-align: center;
+    padding-bottom: 12px;
+}
+
 .mulansection article a {
+    display: block;
+    width: 240px;
+    margin: auto;
     background-color: brown;
+    border-radius: 24px;
     text-decoration: none;
     text-align: center;
-    padding-bottom: .75em;
-    padding-top: .75em;
-    padding-left: 2em;
-    padding-right: 2em;
-    border-radius: 20px;
-    text-transform: uppercase;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
     font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
 }
 
 .mulansection img:nth-child(2) {
     display: none;
 }
 
-.mulansection img:nth-child(3) /*Logo van Mulan*/{
+.mulansection img:nth-child(3)
+/*Logo van Mulan*/
+
+{
     margin-top: 20px;
 }
 
-.mulansection article{
-    background-color: rgb(20,43,98);
+.mulansection article {
+    background-color: rgb(20, 43, 98);
 }
 
 .mulansection img:first-of-type {
@@ -137,8 +196,27 @@ footer li {
     transform: scale(1.05);
 }
 
-.mulansection h2 {
+.mulansection section:nth-of-type(2) p{
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 50;
+    padding: 24px;
+}
+
+.mulansection section:nth-of-type(2) section{
+    margin-bottom: 12px;
+}
+
+.mulansection section:nth-of-type(2) section article{
+    margin: 24px;
+}
+
+.mulansection h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
     color: white;
+    text-align: left;
+    margin-left: 24px;
+    margin-bottom: 0;
 }
 
 .mulansection p {
@@ -146,9 +224,16 @@ footer li {
     font-family: 'Noto Sans', sans-serif;
 }
 
+.mulandescription {
+    text-align: left;
+}
+
+
 /* Phineas & Ferb section*/
+
 .phineassection {
     background-color: rgb(15, 17, 73);
+    padding-bottom: 12px;
 }
 
 .phineassection img:first-of-type {
@@ -159,25 +244,41 @@ footer li {
     transform: scale(1.05);
 }
 
+.phineassection img:nth-of-type(2) {
+    display: block;
+    width: 478px;
+    margin: auto;
+}
+
 .phineassection a {
+    display: block;
     color: white;
     text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    padding: 24px;
 }
 
 .phineassection a:hover {
     text-decoration: underline;
 }
 
+
 /*Parken section*/
+
 .parkensection {
-    background-color: rgb(245, 245, 245)
+    background-color: rgb(245, 245, 245);
 }
 
 .parkensection article {
     background-color: white;
 }
 
+
 /*Meer section*/
+
 .meersection {
     background-color: rgb(245, 245, 245)
 }
