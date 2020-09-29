@@ -6,24 +6,25 @@
     box-sizing: border-box;
 }
 
+/*Eigen css*/
+
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: rgb(245, 245, 245);
 }
-
 
 /*header en footer*/
 
 header {
     background-color: white;
     position: relative;
+    padding: 1px;
 }
 
 button {
     border-style: none;
     display: block;
-    /* Aangepast: background-color transparent ipv white */
     background-color: transparent;
     height: 35px;
     width: 35px;
@@ -58,7 +59,6 @@ button::after {
     top: 19px;
 }
 
-
 /* button in open state (class naam =  .animated) */
 
 button.animated::before,
@@ -84,6 +84,7 @@ header img {
     width: 84px;
     height: 34px;
 }
+
 header nav {
     display: none;
 }
@@ -127,17 +128,72 @@ header li {
 
 footer {
     background-color: white;
+    padding: 1px;
 }
 
-footer li>a {
+footer img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding-top: 50px;
+    width: 22%;
+}
+
+footer li > a {
+    display: block;
     font-family: helvetica;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
+    font-size: 14px;
+    font-weight: 800;
+    text-align: center;
 }
 
 footer li {
     list-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer section:nth-of-type(1) {
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer section:nth-of-type(1) a {
+    padding: 0;
+}
+
+footer section:nth-of-type(1) a img{
+    width: 27px;
+    margin: 12px;
+}
+
+footer section:nth-of-type(2) a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+footer section:nth-of-type(2) p {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    font-size: 12px;
 }
 
 
@@ -180,7 +236,7 @@ footer li {
 .mulansection img:nth-child(3)
 /*Logo van Mulan*/
 
-{
+    {
     margin-top: 20px;
 }
 
@@ -196,17 +252,17 @@ footer li {
     transform: scale(1.05);
 }
 
-.mulansection section:nth-of-type(2) p{
+.mulansection section:nth-of-type(2) p {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 50;
     padding: 24px;
 }
 
-.mulansection section:nth-of-type(2) section{
+.mulansection section:nth-of-type(2) section {
     margin-bottom: 12px;
 }
 
-.mulansection section:nth-of-type(2) section article{
+.mulansection section:nth-of-type(2) section article {
     margin: 24px;
 }
 
@@ -272,17 +328,50 @@ footer li {
     background-color: rgb(245, 245, 245);
 }
 
+.parkensection h2 {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
 .parkensection article {
+    margin: 16px;
     background-color: white;
 }
 
-
-/*Meer section*/
-
-.meersection {
-    background-color: rgb(245, 245, 245)
+.parkensection article h3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 img {
     max-width: 100%;
+}
+
+.shopsection {
+    background-color: rgb(245, 245, 245);
+}
+
+.shopsection h2 {
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.shopsection img:nth-of-type(1) {
+    padding: 16px;
+}
+
+.shopsection img:nth-of-type(2) {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }

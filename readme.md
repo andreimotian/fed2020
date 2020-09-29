@@ -30,9 +30,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
 
 
+-Mobiele homepage is z.g.a. af. Heb een microinteractie die geanimeerd wordt. 
+
+Fonts zijn niet hetzelfde als op de website van Disney, ik heb een vergelijkbare font gebruikt. Wat minder goed ging was om een svg te animeren om een menu te maken. Dit was uiteindelijk niet gelukt, ik heb met before en after gewerkt en nu begrijp ik ook wat het doet in mijn code.-
+
+### Agenda voor meeting Andrei & Nadja
+
+-Moet de menu in een kruisje veranderen. Mag ik een pagina toevoegen in de nav. Vragen om goedkeuring van mijn gebruik van classes. Zijn de animaties die we hebben voldoende?-
 
 ## Voortgang 1 (week 3)
 
