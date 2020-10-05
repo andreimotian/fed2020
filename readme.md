@@ -41,6 +41,10 @@ Fonts zijn niet hetzelfde als op de website van Disney, ik heb een vergelijkbare
 
 -Moet de menu in een kruisje veranderen. Mag ik een pagina toevoegen in de nav. Vragen om goedkeuring van mijn gebruik van classes. Zijn de animaties die we hebben voldoende?-
 
+### Verslag van meeting
+
+-Ik heb tips gekregen hoe ik grids kan toevoegen omdat ik dit heel lastig vond. Door grid garden te spelen is dit me iets duidelijker geworden maar moet het toch nog vaak opzoeken. Ik gebruik classes alleen voor de section van een onderwerp, als ik in mijn css zo te werk ga, main .classnaam article h2, mag ik dit doen omdat het zo nog voor de lezer overzichtelijk blijft om het in mijn html terug te vinden. Voor toegankelijkheid moet ik nog alt tekst toevoegen aan mijn afbeeldingen, dat ben ik helemaal vergeten te doen. Ik mag wat meer comments toevoegen in mijn code zodat het voor een andere lezer ook duidelijk is. Feedback van student assistent: Ben al redelijk ver en goed op weg. Hij gaat nog navragen over mijn detailpage. Na overleg met Danny heb ik een detailpage gekozen van een film om na te maken, Black Widow.-
+
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken

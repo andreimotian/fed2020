@@ -201,93 +201,80 @@ footer section:nth-of-type(2) p {
 }
 
 
-/*Mulan section*/
-
-.mulansection {
-    background-color: rgb(8, 19, 52);
-    padding-bottom: 12px;
+/*Onward section*/
+main .onwardsection {
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/eu_disney-plus_onward_hero_m_c4658e75.jpeg?region=0,0,750,668&width=600');
+    height: 31.75em;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
-.mulansection a {
-    color: white;
-}
-
-.mulansection article {
-    text-align: center;
-    padding-bottom: 12px;
-}
-
-.mulansection article a {
+main .onwardsection img {
+    padding-top: 300px;
     display: block;
-    width: 240px;
-    margin: auto;
-    background-color: brown;
-    border-radius: 24px;
-    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+main .onwardsection h1 {
+    color: white;
     text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+main .onwardsection a {
+    display: block;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    background-color: rgb(0, 119, 218);
+    width: 230px;
+    margin: auto;
+    border-radius: 2em;
     padding-bottom: 16px;
     padding-top: 16px;
     padding-left: 32px;
     padding-right: 32px;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
     text-transform: uppercase;
+    bottom: 2em;
 }
 
-.mulansection img:nth-child(2) {
-    display: none;
+/*Mandalorian section*/
+main .mandaloriansection {
+    background-color: rgb(8, 19, 52);
+    padding: .5em;
 }
 
-.mulansection img:nth-child(3)
-/*Logo van Mulan*/
-
-    {
-    margin-top: 20px;
+main .mandaloriansection article {
+    background:  rgb(20, 43, 98);
+    margin: 1em;
 }
 
-.mulansection article {
-    background-color: rgb(20, 43, 98);
-}
-
-.mulansection img:first-of-type {
-    transition: transform 1s;
-}
-
-.mulansection img:first-of-type:hover {
-    transform: scale(1.05);
-}
-
-.mulansection section:nth-of-type(2) p {
-    font-family: 'Noto Sans', sans-serif;
-    font-weight: 50;
-    padding: 24px;
-}
-
-.mulansection section:nth-of-type(2) section {
-    margin-bottom: 12px;
-}
-
-.mulansection section:nth-of-type(2) section article {
-    margin: 24px;
-}
-
-.mulansection h1 {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: 20px;
+main .mandaloriansection article h2 {
+    padding: .75em;
+    margin: 0;
     color: white;
-    text-align: left;
-    margin-left: 24px;
-    margin-bottom: 0;
+    font-family: 'Lato', sans-serif;
 }
 
-.mulansection p {
+main .mandaloriansection article p {
+    padding: .75em;
+    margin: 0;
     color: white;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
 }
 
-.mulandescription {
-    text-align: left;
+main .mandaloriansection article p:nth-of-type(2) {
+    font-weight: 700;
 }
-
 
 /* Phineas & Ferb section*/
 
@@ -389,10 +376,17 @@ footer section:nth-of-type(2) p {
 /*Detailpagina*/
 .widowsection {
     background-image: url('https://graziamagazine.com/mx/wp-content/uploads/sites/13/2019/12/ya-esta-aqui-el-trailer-de-black-widow-con-scarlett-johansson-destacada.jpg');
-    height: 525px;
+    height: 31.75em;
     background-size: cover;
-    top: 0;
-    padding-top: 340px;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.widowsection img {
+    display: block;
+    padding-top: 300px;
+    margin: auto;
+    width: 50%;
 }
 
 .widowsection p {
@@ -405,10 +399,10 @@ footer section:nth-of-type(2) p {
 .widowsection a {
     color: black;
     display: block;
-    width: 240px;
+    width: 230px;
     margin: auto;
     background-color: white;
-    border-radius: 24px;
+    border-radius: 2em;
     text-decoration: none;
     text-align: center;
     padding-bottom: 16px;
@@ -418,15 +412,39 @@ footer section:nth-of-type(2) p {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    bottom: 50px;
-}
-
-.widowsection img {
-    display: block;
-    margin: auto;
-    width: 50%;
 }
 
 iframe {
     display: inline;
+}
+
+/*Vanaf hier is het desktop*/
+
+@media (min-width: 37.5em) {
+    
+    /*Onward section*/
+    main .onwardsection {
+        background-image: url('https://lumiere-a.akamaihd.net/v1/images/eu_disney-plus_onward_hero_r_7afe8418.jpeg?region=0,0,3200,1336&width=1200');
+        transition: transform 1s;
+    }
+    
+    main .onwardsection:hover {
+        /*transform: scale(1.05);*/
+    }
+    
+}
+
+@media (min-width: 40em) {
+        main .mandaloriansection {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    
+    main .mandaloriansection article:nth-of-type(1){
+        margin-left: 5em;
+    }
+    
+    main .mandaloriansection article:nth-of-type(2){
+        margin-right: 5em;
+    }
 }
