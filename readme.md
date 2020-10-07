@@ -31,7 +31,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting Andrei & Nadja
 
--Problemen met img bij schalen. Tips voor een alt tekst bij afbeeldingen? Eerste 2 img naast elkaar krijgen op desktop. Article grid bij movies centreren. Blauwe rand bij button en andere dingen. Originele sims website gebruikt 20 verschillende achtergonden voor resposive, Nadja heeft een img gebuikt en die gestyled,  resposive schalen wordt daarom lastig.-
+-Problemen met img bij schalen. Tips voor een alt tekst bij afbeeldingen? Eerste 2 img naast elkaar krijgen op desktop. Article grid bij movies centreren. Blauwe rand bij button en andere dingen. Originele sims website gebruikt 20 verschillende achtergonden voor resposive, Nadja heeft een img gebuikt en die gestyled,  resposive schalen wordt daarom lastig. Bij Nadja zijn er veel elementen op de website waardoor het resposive maken lastig is.-
 
 ### Verslag van meeting
 
