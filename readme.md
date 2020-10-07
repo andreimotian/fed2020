@@ -24,7 +24,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+
+-Soort van opnieuw begonnen met de website. Alle content veranderd met het meest recente van Disney. Alle content op detailpagina is aanwezig, moet nog gestyled worden. Op de homepage zijn de eerste twee sections al responsive en heb bij de tweede section met grid gewerkt.-
+
+### Agenda voor meeting Andrei & Nadja
+
+-Problemen met img bij schalen. Tips voor een alt tekst bij afbeeldingen? Eerste 2 img naast elkaar krijgen op desktop. Article grid bij movies centreren. Blauwe rand bij button en andere dingen. Originele sims website gebruikt 20 verschillende achtergonden voor resposive, Nadja heeft een img gebuikt en die gestyled,  resposive schalen wordt daarom lastig.-
+
+### Verslag van meeting
 
 
 

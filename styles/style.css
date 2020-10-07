@@ -18,6 +18,11 @@ img {
     max-width: 100%;
 }
 
+a:focus {
+    background-color: rgb(0, 119, 218);
+    color: white;
+}
+
 /*header en footer*/
 
 header {
@@ -35,6 +40,7 @@ button {
     left: 10px;
     margin: 19px;
     position: relative;
+    outline: none;
 }
 
 /* button in normale state */
@@ -315,11 +321,11 @@ main .mandaloriansection article p:nth-of-type(2) {
 
 /*Parken section*/
 
-.parkensection {
+main .parkensection {
     background-color: rgb(245, 245, 245);
 }
 
-.parkensection h2 {
+main .parkensection h2 {
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
@@ -327,12 +333,19 @@ main .mandaloriansection article p:nth-of-type(2) {
     padding-top: 20px;
 }
 
-.parkensection article {
+main .parkensection article {
     margin: 16px;
     background-color: white;
 }
 
-.parkensection article h3 {
+main .parkensection article p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    padding: .75em;
+}
+
+main .parkensection article h3 {
     font-family: 'Noto Sans', sans-serif;
     font-weight: 100;
     font-size: 18px;
@@ -341,12 +354,29 @@ main .mandaloriansection article p:nth-of-type(2) {
 }
 
 /*Movies*/
-.moviesection h2 {
+main .moviesection h2 {
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
     font-weight: 400;
     padding-top: 20px;
+}
+
+main .moviesection article {
+    display: grid;
+    grid-template-columns: 45% 45%;
+
+}
+
+main .moviesection article a {
+    text-decoration: none;
+    margin: 1em
+}
+
+main .moviesection article a h4 {
+    font-family: 'Lato', sans-serif;
+    color: black;
+    margin: .25em
 }
 
 /*Shop*/
@@ -386,7 +416,7 @@ main .mandaloriansection article p:nth-of-type(2) {
     display: block;
     padding-top: 300px;
     margin: auto;
-    width: 50%;
+    width: 50%;    
 }
 
 .widowsection p {
@@ -435,16 +465,57 @@ iframe {
 }
 
 @media (min-width: 40em) {
-        main .mandaloriansection {
+    
+    header {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    header img{
+        display: block;
+        margin: 0;
+        position: relative;
+        top:1em;
+        left: 1em;
+    }
+    
+    header nav {
+        display: block;
+    }
+    
+    header button {
+        display: none;
+    }
+    
+    header nav ul {
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+    
+    header nav ul li {
+        border-bottom-style: none;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    
+    main .mandaloriansection {
         display: grid;
         grid-template-columns: 50% 50%;
     }
     
     main .mandaloriansection article:nth-of-type(1){
-        margin-left: 5em;
+        margin-left: 2.5em;
     }
     
     main .mandaloriansection article:nth-of-type(2){
-        margin-right: 5em;
+        margin-right: 2.5em;
     }
+    
+    main .moviesection article {
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+
 }
+
+
