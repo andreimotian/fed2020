@@ -15,7 +15,7 @@ body {
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
 }
 
 a:focus {
@@ -150,13 +150,17 @@ footer img {
     width: 22%;
 }
 
+footer ul {
+    padding: 0;
+}
+
 footer li > a {
     display: block;
     font-family: helvetica;
     text-decoration: none;
     text-transform: uppercase;
     color: black;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 800;
     text-align: center;
 }
@@ -167,22 +171,22 @@ footer li {
     margin-bottom: 20px;
 }
 
-footer section:nth-of-type(1) {
+footer div:nth-of-type(1) {
     display: flex;
     justify-content: center;
 
 }
 
-footer section:nth-of-type(1) a {
+footer div:nth-of-type(1) a {
     padding: 0;
 }
 
-footer section:nth-of-type(1) a img {
+footer div:nth-of-type(1) a img {
     width: 27px;
     margin: 12px;
 }
 
-footer section:nth-of-type(2) a {
+footer div:nth-of-type(2) a {
     text-align: center;
     text-decoration: none;
     color: black;
@@ -194,7 +198,7 @@ footer section:nth-of-type(2) a {
     font-size: 12px;
 }
 
-footer section:nth-of-type(2) p {
+footer div:nth-of-type(2) p {
     text-align: center;
     text-decoration: none;
     color: black;
@@ -206,6 +210,7 @@ footer section:nth-of-type(2) p {
     font-size: 12px;
 }
 
+/*Home page*/
 
 /*Onward section*/
 main .onwardsection {
@@ -235,7 +240,7 @@ main .onwardsection h1 {
 main .onwardsection a {
     display: block;
     text-decoration: none;
-    color:white;
+    color: white;
     text-align: center;
     background-color: rgb(0, 119, 218);
     width: 230px;
@@ -258,7 +263,7 @@ main .mandaloriansection {
 }
 
 main .mandaloriansection article {
-    background:  rgb(20, 43, 98);
+    background: rgb(20, 43, 98);
     margin: 1em;
 }
 
@@ -282,22 +287,23 @@ main .mandaloriansection article p:nth-of-type(2) {
     font-weight: 700;
 }
 
+main .mandaloriansection article img {
+    width: 100%;
+}
+
 /* Phineas & Ferb section*/
 
 .phineassection {
     background-color: rgb(15, 17, 73);
-    padding-bottom: 12px;
+    padding-bottom: 1em;
+    position: relative;
 }
 
-.phineassection img:first-of-type {
-    transition: transform 1s;
+.phineassection img:nth-of-type(1) {
+    display: none;
 }
 
-.phineassection img:first-of-type:hover {
-    transform: scale(1.05);
-}
-
-.phineassection img:nth-of-type(2) {
+.phineassection img:nth-of-type(3) {
     display: block;
     width: 478px;
     margin: auto;
@@ -311,7 +317,7 @@ main .mandaloriansection article p:nth-of-type(2) {
     text-transform: uppercase;
     font-family: 'Noto Sans', sans-serif;
     font-weight: 700;
-    padding: 24px;
+    padding: 1.5em;
 }
 
 .phineassection a:hover {
@@ -323,6 +329,10 @@ main .mandaloriansection article p:nth-of-type(2) {
 
 main .parkensection {
     background-color: rgb(245, 245, 245);
+}
+
+main .parkensection img {
+    width: 100%;
 }
 
 main .parkensection h2 {
@@ -353,7 +363,7 @@ main .parkensection article h3 {
     padding-left: 10px;
 }
 
-/*Movies*/
+/*Movies in de home en detailpagina*/
 main .moviesection h2 {
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
@@ -362,10 +372,14 @@ main .moviesection h2 {
     padding-top: 20px;
 }
 
+main .moviesection h3 {
+    font-family: 'Lato', sans-serif;
+    margin-left: 1em;
+}
+
 main .moviesection article {
     display: grid;
-    grid-template-columns: 45% 45%;
-
+    grid-template-columns: 50% 50%;
 }
 
 main .moviesection article a {
@@ -380,11 +394,11 @@ main .moviesection article a h4 {
 }
 
 /*Shop*/
-.shopsection {
+main .shopsection {
     background-color: rgb(245, 245, 245);
 }
 
-.shopsection h2 {
+main .shopsection h2 {
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
@@ -392,11 +406,21 @@ main .moviesection article a h4 {
     padding-top: 20px;
 }
 
-.shopsection img:nth-of-type(1) {
-    padding: 16px;
+main .shopsection h3 {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
 }
 
-.shopsection img:nth-of-type(2) {
+main .shopsection img:nth-of-type(1) {
+    padding: 1em;
+}
+
+main .shopsection img:nth-of-type(2) {
+    display: none;
+}
+
+main .shopsection img:nth-of-type(3) {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -404,7 +428,7 @@ main .moviesection article a h4 {
 }
 
 /*Detailpagina*/
-.widowsection {
+main .widowsection {
     background-image: url('https://graziamagazine.com/mx/wp-content/uploads/sites/13/2019/12/ya-esta-aqui-el-trailer-de-black-widow-con-scarlett-johansson-destacada.jpg');
     height: 31.75em;
     background-size: cover;
@@ -412,21 +436,21 @@ main .moviesection article a h4 {
     background-repeat: no-repeat;
 }
 
-.widowsection img {
+main .widowsection img {
     display: block;
     padding-top: 300px;
     margin: auto;
-    width: 50%;    
+    width: 50%;
 }
 
-.widowsection p {
+main .widowsection h1 {
     color: white;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     text-align: center;
 }
 
-.widowsection a {
+main .widowsection a {
     color: black;
     display: block;
     width: 230px;
@@ -444,78 +468,310 @@ main .moviesection article a h4 {
     text-transform: uppercase;
 }
 
-iframe {
-    display: inline;
+main .makersection {
+    margin: 1em;
 }
+
+main .makersection img {
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+main .makersection h4 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+main .makersection h5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+main .makersection p {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+}
+
+main .makersection p:nth-of-type(1) {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+main .videosection {
+    margin: 1em;
+}
+
+main .videosection h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+main .videosection iframe {
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+
+
 
 /*Vanaf hier is het desktop*/
 
 @media (min-width: 37.5em) {
-    
-    /*Onward section*/
+
+    /*Voor als je op desktop over de afbeeldingen gaat hoveren met je muis*/
+    main img {
+        transition: transform 1s;
+    }
+
+    main img:hover {
+        transform: scale(1.05);
+    }
+
+
+    /*Onward section background image op desktop*/
     main .onwardsection {
         background-image: url('https://lumiere-a.akamaihd.net/v1/images/eu_disney-plus_onward_hero_r_7afe8418.jpeg?region=0,0,3200,1336&width=1200');
         transition: transform 1s;
     }
-    
-    main .onwardsection:hover {
-        /*transform: scale(1.05);*/
-    }
-    
 }
 
 @media (min-width: 40em) {
-    
+
+    /*header & footer*/
     header {
         display: flex;
         justify-content: flex-start;
     }
-    
-    header img{
+
+    header img {
         display: block;
         margin: 0;
         position: relative;
-        top:1em;
+        top: 1em;
         left: 1em;
     }
-    
+
     header nav {
         display: block;
     }
-    
+
     header button {
         display: none;
     }
-    
+
     header nav ul {
         justify-content: flex-start;
         flex-direction: row;
     }
-    
+
     header nav ul li {
         border-bottom-style: none;
         padding-left: 1em;
         padding-right: 1em;
     }
-    
-    
+
+    footer ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*Onward section op desktop*/
+    main .onwardsection {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    main .onwardsection img {
+        display: inline;
+        width: 33%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 5em;
+        padding: 0;
+    }
+
+    main .onwardsection h1 {
+        width: 33%;
+        margin-left: 5em;
+        padding: 0;
+        font-size: 1.25em;
+    }
+
+    main .onwardsection a {
+        width: 33%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 5em;
+    }
+
+    /*Mandalorian section op desktop*/
     main .mandaloriansection {
         display: grid;
         grid-template-columns: 50% 50%;
     }
-    
-    main .mandaloriansection article:nth-of-type(1){
+
+    main .mandaloriansection article:nth-of-type(1) {
         margin-left: 2.5em;
     }
-    
-    main .mandaloriansection article:nth-of-type(2){
+
+    main .mandaloriansection article:nth-of-type(2) {
         margin-right: 2.5em;
     }
+
+    /*Phineas section op desktop*/
+    main .phineassection {
+        background-color: none;
+        padding: 0;
+    }
     
+    main .phineassection img:nth-of-type(2) {
+        display: none;
+    }
+
+    main .phineassection img:nth-of-type(1) {
+        display: block;
+        transition: transform 1s;
+    }
+
+    main .phineassection img:nth-of-type(1):hover {
+        transform: scale(1.05);
+    }
+    
+    main .phineassection img:nth-of-type(3){
+        position: absolute;
+        width: 45%;
+        top: 5em;
+    }
+
+    /*Parken section op desktop*/
+    main .parkensection section {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    main .parkensection section article:nth-of-type(1) {
+        margin-left: 2.5em;
+    }
+
+    main .parkensection section article:nth-of-type(2) {
+        margin-right: 2.5em;
+    }
+
+    /*Movie section op desktop*/
     main .moviesection article {
         grid-template-columns: 25% 25% 25% 25%;
     }
 
+    /*Shop section op desktop*/
+    main .shopsection img:nth-of-type(1) {
+        display: none;
+    }
+
+    main .shopsection img:nth-of-type(2) {
+        display: block;
+        padding: 2em;
+    }
+
+    main .shopsection img:nth-of-type(3) {
+        display: inline;
+        position: relative;
+        margin: auto;
+        width: 20%;
+        top: -10em;
+        left: 5em;
+    }
+
+    /*Detailpagina op desktop*/
+
+    /*Widow section op desktop*/
+    main .widowsection {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    main .widowsection img {
+        display: inline;
+        width: 33%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 5em;
+        padding: 0;
+    }
+
+    main .widowsection h1 {
+        display: inline;
+        width: 33%;
+        margin-right: 5em;
+        margin-left: auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    main .widowsection a {
+        width: 33%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 5em;
+    }
+
+    /*Maker section op desktop*/
+    main .makersection {
+        position: relative;
+    }
+
+    main .makersection section:nth-of-type(1) img {
+        width: 33%;
+        display: inline;
+    }
+
+    main .makersection section:nth-of-type(1) h4 {
+        display: inline;
+        position: absolute;
+        margin: 1em;
+    }
+
+    main .makersection section:nth-of-type(1) p:nth-of-type(1) {
+        display: inline;
+        position: absolute;
+        top: 2em;
+        margin: 1.25em;
+    }
+
+    main .makersection section:nth-of-type(1) p:nth-of-type(2) {
+        display: inline;
+        position: absolute;
+        top: 4em;
+        margin: 1.25em;
+    }
+
+
+    main .makersection section:nth-of-type(2) {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /*Video section*/
+    main .videosection div {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    main .videosection div iframe {
+        width: 100%;
+    }
+
 }
 
-
+/*Extra media query voor de video's op de detailpage*/
+@media (min-width: 60em) {
+    main .videosection div iframe {
+        height: 50vh;
+    }
+}
