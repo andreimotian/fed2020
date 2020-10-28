@@ -6,21 +6,31 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. -Alle afbeeldingen komen van de website van Disney. www.disney.nl-
+2. - Deze bron heb ik gebruikt om te experimenteren met dark mode media query https://css-tricks.com/dark-modes-with-css/-
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
-
-**Screenshot(s):**
-
--screenshot(s) van je eindresultaat-
+-Ik heb veel moeite gehad op zowel de homepage als de detailpage de elementen onder de header te positioneren, de heading, afbeelding en anchor link op de goede plek te krijgen als het naar desktop gaat. Ik wil proberen om voor de ophoging van mijn cijfer te gaan, dit heb ik gedaan door de website ook in dark mode te laten zien. Als je gebruiker zijn instellingen op zijn device op donker heeft staan ziet hij de website in dark mode. Dit heb ik gedaan door een media query te gebruiken en dit is goed gegaan. De informatie over de film op de detailpagina heb ik anders gepositioneerd dan op de oorspronkelijke website omdat ik dat beter uit vond zien. Op de oorspronkelijke website op mobiel was onoverzichtelijk omdat de afbeelding en tekst naast elkaar staan en het niet fijn leest.  -
 
 
+-Homepagina voor mobiel en desktop-
+![mobiele homepage](images/homepagemobile.png) 
+![desktop homepage](images/homepagedesktop.png)
+
+-Homepagina voor mobiel en desktop in dark mode-
+![mobiele homepage in dark mode](images/homepagemobiledark.png) 
+![desktop homepage in dark mode](images/homepagedesktopdark.png)
+
+-Detailpagina voor mobiel en desktop-
+![mobiele detailpage](images/detailpagemobile.png)
+![desktop detailpage](images/detailpagedesktop.png)
+
+-Detailpagina voor mobiel en desktop in dark mode-
+![mobiele detailpage in dark mode](images/detailpagemobiledark.png)
+![desktop detailpage in dark mode](images/detailpagedesktopdark.png)
 
 ## Voortgang 3 (week 6)
 
@@ -35,7 +45,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Verslag van meeting
 
-
+-Problemen bij de afbeeldingen met schalen is opgelost door een width te geven in plaats van een max width. Bij mijn alt tekst moet ik dingen als "afbeelding" of "foto van" weg halen. Problemen die ik met grid had zijn opgelost door de breedte op 50% in plaats van 45%. Feedback van docent: Ben goed op weg en kijken of ik mezelf kan uitdagen om voor ophoging te gaan.-
 
 ## Voortgang 2 (week 5)
 
